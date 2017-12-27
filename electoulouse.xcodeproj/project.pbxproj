@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE6F8079A18E0A4063C94C9 /* Pods_electoulouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDEDA8AAD9C4A622D7CF9E /* Pods_electoulouse.framework */; };
+		D61B590E1FEEB40F009B8380 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61B590C1FEEB3DC009B8380 /* MapKit.framework */; };
+		D61B590F1FEEB416009B8380 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61B590D1FEEB3ED009B8380 /* CoreLocation.framework */; };
+		D61B59111FEEB427009B8380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61B59101FEEB421009B8380 /* UIKit.framework */; };
+		D61B59131FEEB43B009B8380 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61B59121FEEB434009B8380 /* CoreGraphics.framework */; };
+		D61B59151FEEB44B009B8380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61B59141FEEB445009B8380 /* Foundation.framework */; };
+		D61B59171FEEB97B009B8380 /* MainGPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B59161FEEB97B009B8380 /* MainGPSViewController.swift */; };
+		D61BC60D1FF44957008712CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D61BC60C1FF44957008712CD /* GoogleService-Info.plist */; };
+		D65929841FB4C93400666C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65929831FB4C93400666C2A /* AppDelegate.swift */; };
+		D65929891FB4C93400666C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65929871FB4C93400666C2A /* Main.storyboard */; };
+		D659298B1FB4C93400666C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D659298A1FB4C93400666C2A /* Assets.xcassets */; };
+		D659298E1FB4C93400666C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659298C1FB4C93400666C2A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FDDEDA8AAD9C4A622D7CF9E /* Pods_electoulouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_electoulouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87D1D9EC3D8C0491AE9B51D /* Pods-electoulouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electoulouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-electoulouse/Pods-electoulouse.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B62AB3E35032B8F86B0490 /* Pods-electoulouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electoulouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-electoulouse/Pods-electoulouse.release.xcconfig"; sourceTree = "<group>"; };
+		D61B590C1FEEB3DC009B8380 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D61B590D1FEEB3ED009B8380 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D61B59101FEEB421009B8380 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D61B59121FEEB434009B8380 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D61B59141FEEB445009B8380 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D61B59161FEEB97B009B8380 /* MainGPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGPSViewController.swift; sourceTree = "<group>"; };
+		D61BC60C1FF44957008712CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D65929801FB4C93400666C2A /* electoulouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = electoulouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65929831FB4C93400666C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D65929881FB4C93400666C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D659298A1FB4C93400666C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D659298D1FB4C93400666C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D659298F1FB4C93400666C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D659297D1FB4C93400666C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61B59151FEEB44B009B8380 /* Foundation.framework in Frameworks */,
+				D61B59131FEEB43B009B8380 /* CoreGraphics.framework in Frameworks */,
+				D61B59111FEEB427009B8380 /* UIKit.framework in Frameworks */,
+				D61B590F1FEEB416009B8380 /* CoreLocation.framework in Frameworks */,
+				D61B590E1FEEB40F009B8380 /* MapKit.framework in Frameworks */,
+				AFE6F8079A18E0A4063C94C9 /* Pods_electoulouse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFFB2C4C0250694AAB9612A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C87D1D9EC3D8C0491AE9B51D /* Pods-electoulouse.debug.xcconfig */,
+				D2B62AB3E35032B8F86B0490 /* Pods-electoulouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D61B590B1FEEB3DB009B8380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61B59141FEEB445009B8380 /* Foundation.framework */,
+				D61B59121FEEB434009B8380 /* CoreGraphics.framework */,
+				D61B59101FEEB421009B8380 /* UIKit.framework */,
+				D61B590D1FEEB3ED009B8380 /* CoreLocation.framework */,
+				D61B590C1FEEB3DC009B8380 /* MapKit.framework */,
+				5FDDEDA8AAD9C4A622D7CF9E /* Pods_electoulouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65929771FB4C93400666C2A = {
+			isa = PBXGroup;
+			children = (
+				D65929821FB4C93400666C2A /* electoulouse */,
+				D65929811FB4C93400666C2A /* Products */,
+				D61B590B1FEEB3DB009B8380 /* Frameworks */,
+				ABFFB2C4C0250694AAB9612A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D65929811FB4C93400666C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65929801FB4C93400666C2A /* electoulouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65929821FB4C93400666C2A /* electoulouse */ = {
+			isa = PBXGroup;
+			children = (
+				D65929831FB4C93400666C2A /* AppDelegate.swift */,
+				D61B59161FEEB97B009B8380 /* MainGPSViewController.swift */,
+				D65929871FB4C93400666C2A /* Main.storyboard */,
+				D659298A1FB4C93400666C2A /* Assets.xcassets */,
+				D659298C1FB4C93400666C2A /* LaunchScreen.storyboard */,
+				D659298F1FB4C93400666C2A /* Info.plist */,
+				D61BC60C1FF44957008712CD /* GoogleService-Info.plist */,
+			);
+			path = electoulouse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D659297F1FB4C93400666C2A /* electoulouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65929921FB4C93400666C2A /* Build configuration list for PBXNativeTarget "electoulouse" */;
+			buildPhases = (
+				4E9CE6107BB6A44C9643E14A /* [CP] Check Pods Manifest.lock */,
+				D659297C1FB4C93400666C2A /* Sources */,
+				D659297D1FB4C93400666C2A /* Frameworks */,
+				D659297E1FB4C93400666C2A /* Resources */,
+				E74CB716D2FB73552732D2D7 /* [CP] Embed Pods Frameworks */,
+				2ACC543F00B7A987463F5239 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = electoulouse;
+			productName = electoulouse;
+			productReference = D65929801FB4C93400666C2A /* electoulouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65929781FB4C93400666C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "antoine simon";
+				TargetAttributes = {
+					D659297F1FB4C93400666C2A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D659297B1FB4C93400666C2A /* Build configuration list for PBXProject "electoulouse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65929771FB4C93400666C2A;
+			productRefGroup = D65929811FB4C93400666C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D659297F1FB4C93400666C2A /* electoulouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D659297E1FB4C93400666C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D659298E1FB4C93400666C2A /* LaunchScreen.storyboard in Resources */,
+				D61BC60D1FF44957008712CD /* GoogleService-Info.plist in Resources */,
+				D659298B1FB4C93400666C2A /* Assets.xcassets in Resources */,
+				D65929891FB4C93400666C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ACC543F00B7A987463F5239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-electoulouse/Pods-electoulouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9CE6107BB6A44C9643E14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-electoulouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74CB716D2FB73552732D2D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-electoulouse/Pods-electoulouse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-electoulouse/Pods-electoulouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D659297C1FB4C93400666C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61B59171FEEB97B009B8380 /* MainGPSViewController.swift in Sources */,
+				D65929841FB4C93400666C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D65929871FB4C93400666C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65929881FB4C93400666C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D659298C1FB4C93400666C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D659298D1FB4C93400666C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65929901FB4C93400666C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65929911FB4C93400666C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65929931FB4C93400666C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87D1D9EC3D8C0491AE9B51D /* Pods-electoulouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43N6QXKADX;
+				INFOPLIST_FILE = electoulouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "antoine-simon.electoulouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65929941FB4C93400666C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B62AB3E35032B8F86B0490 /* Pods-electoulouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43N6QXKADX;
+				INFOPLIST_FILE = electoulouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "antoine-simon.electoulouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D659297B1FB4C93400666C2A /* Build configuration list for PBXProject "electoulouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65929901FB4C93400666C2A /* Debug */,
+				D65929911FB4C93400666C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65929921FB4C93400666C2A /* Build configuration list for PBXNativeTarget "electoulouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65929931FB4C93400666C2A /* Debug */,
+				D65929941FB4C93400666C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65929781FB4C93400666C2A /* Project object */;
+}

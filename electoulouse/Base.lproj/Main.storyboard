@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aMO-fb-Dvf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="H8e-bu-Jc6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aMO-fb-Dvf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6bR-4w-g5c">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2Pc-PH-htw" kind="relationship" relationship="rootViewController" id="bfH-OD-d9p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OtK-Vd-Kfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240" y="33.283358320839582"/>
+        </scene>
+        <!--ElecToulouse-->
+        <scene sceneID="UNL-XN-CTC">
+            <objects>
+                <viewController id="2Pc-PH-htw" customClass="MainGPSViewController" customModule="electoulouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nTS-P5-RPG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yre-pl-O2y" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" showsUserLocation="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fb8-5u-9Qg">
+                                <rect key="frame" x="0.0" y="93" width="375" height="440"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fb8-5u-9Qg" firstAttribute="leading" secondItem="BdS-sc-FGn" secondAttribute="leading" id="2Mx-Gl-gId"/>
+                            <constraint firstItem="Yre-pl-O2y" firstAttribute="centerX" secondItem="BdS-sc-FGn" secondAttribute="centerX" id="Lgn-wd-R8p"/>
+                            <constraint firstItem="Yre-pl-O2y" firstAttribute="top" secondItem="Fb8-5u-9Qg" secondAttribute="bottom" id="cDe-jd-lQ3"/>
+                            <constraint firstItem="Yre-pl-O2y" firstAttribute="bottom" secondItem="BdS-sc-FGn" secondAttribute="bottom" id="s0Z-lS-LpT"/>
+                            <constraint firstItem="Fb8-5u-9Qg" firstAttribute="top" secondItem="BdS-sc-FGn" secondAttribute="top" id="v0T-tI-8wi"/>
+                            <constraint firstItem="BdS-sc-FGn" firstAttribute="trailing" secondItem="Fb8-5u-9Qg" secondAttribute="trailing" id="xVG-oU-dip"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BdS-sc-FGn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ElecToulouse" id="JUg-ri-naF"/>
+                    <connections>
+                        <outlet property="mapGPS" destination="Fb8-5u-9Qg" id="dVM-Ik-vSY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xz7-rS-9L2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224.8" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>
